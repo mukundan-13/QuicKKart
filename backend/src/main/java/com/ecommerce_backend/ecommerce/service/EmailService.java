@@ -38,7 +38,7 @@ public class EmailService {
                 "Sincerely,\nYour E-commerce System",
                 productName, currentStock, threshold
         );
-        sendSimpleEmail("admin@example.com", subject, body); 
+        sendSimpleEmail("randomboy5800@example.com", subject, body); 
     }
 
     public void sendNewProductNotification(String productName, String productDescription, BigDecimal price) {
@@ -52,6 +52,6 @@ public class EmailService {
                 "Sincerely,\nYour E-commerce Team",
                 productName, productDescription, price
         );
-        sendSimpleEmail("subscriber@example.com", subject, body); 
+        sendSimpleEmail("mukundan386@example.com", subject, body); 
     }
 }
